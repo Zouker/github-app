@@ -1,0 +1,108 @@
+.container {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.searchForm {
+    background-color: #333;
+    padding: 10px 40px;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.searchForm .title {
+    display: flex;
+    align-items: center;
+}
+
+.searchForm .logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.searchForm form {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchForm input {
+    width: 75%;
+}
+
+.searchForm input, .searchForm button {
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    color: #000;
+}
+
+.searchForm button {
+    padding: 14px 40px;
+    background: #3e77bf;
+    margin: 0 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.searchResults {
+    background-color: #f5f5f5;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    align-items: center;
+    border-bottom: #444 solid 2px;
+}
+
+.user .image {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.user .image img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.userInfo * {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Pagination */
+
+.moreOptions {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.moreOptions select,
+.pagination button {
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pagination button {
+    background-color: #333;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
